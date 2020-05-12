@@ -1,2 +1,3 @@
-# Projeto
- primeiro repositório versionado
+# Training and studying
+ 
+ First repository
