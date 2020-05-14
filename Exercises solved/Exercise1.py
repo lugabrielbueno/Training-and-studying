@@ -1,6 +1,6 @@
 # Divisible by 7 but not by 5
 
-# List that have all de divisors
+# List that have all the divisors
 list_divisors = []
 
 # Verify all the numbers in the interval

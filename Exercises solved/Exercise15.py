@@ -1,4 +1,5 @@
-# Sum the digit repeating some times: 9 -> 9+99+999+9999
+# Sum the digit repeating some times
+# For example:  9  ->   9+99+999+9999
 
 a = input()
 

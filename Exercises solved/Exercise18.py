@@ -6,7 +6,7 @@
 #4. Minimum length of transaction password: 6
 #5. Maximum length of transaction password: 12
 
-# Importing module for search the criteria
+# Importing module to search the criteria
 import re
 
 
