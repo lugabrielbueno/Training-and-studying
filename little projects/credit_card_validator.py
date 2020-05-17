@@ -44,6 +44,6 @@ class Validator:
         else:    
             return math.ceil(y) == int(self.num[len(self.num)-1])
 
-ok = Validator('Mastercard')
+ok = Validator(input('Your flag: '))
 ok.luhn_alg()
 ok.check_luhn()
