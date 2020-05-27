@@ -1,7 +1,7 @@
 {
     "editor.fontFamily": "",
     "editor.fontSize": 16,
-    "editor.fontWeight": "400",
+    "editor.fontWeight": "500",
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": true,
     "editor.cursorWidth": 2

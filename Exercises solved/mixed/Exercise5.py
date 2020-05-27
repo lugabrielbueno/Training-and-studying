@@ -20,3 +20,4 @@ arch = Strings()
 # Calling the methods
 arch.get_str()
 arch.print_str()
+str.split()
