@@ -1,6 +1,5 @@
 {
-    "editor.fontFamily": "",
-    "editor.fontSize": 16,
+    "editor.fontFamily": "Cascadia Code",
     "editor.fontWeight": "500",
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": true,

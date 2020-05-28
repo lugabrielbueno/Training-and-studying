@@ -3,13 +3,11 @@
 #xyz_there('abcxyz') → True
 #xyz_there('abc.xyz') → False
 #xyz_there('xyz.abc') → True
-'''
+
 def xyz_there(string):
-    return 'xyz' in string
-
-    str.endswith()
-'''
-x = 'abc.xyzxyz'
-
-a = 'xyz' in x and x.endswith('xyz')
-print(a)
+    find_xyz = string.find('xyz')
+    find_dot = string.find('.')
+    if find_dot == -1:
+        return 'xyz' in string
+    else:
+        return find_xyz -1 != find_dot
