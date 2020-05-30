@@ -4,5 +4,18 @@
 #sum67([1, 2, 2, 6, 99, 99, 7]) → 5
 #sum67([1, 1, 6, 7, 2]) → 4
 
-def sum67(lis):
-  
+
+def sum67(nums):
+    result = 0
+    flag = True
+    for num in nums:
+        if num == 6:
+            flag = False
+        if flag:
+            result += num
+        if num == 7:
+            flag = True
+    return result
+
+
+print(sum67([2, 7, 6, 2, 6, 7, 2, 7]))	
