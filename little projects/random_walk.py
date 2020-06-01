@@ -2,9 +2,10 @@ import random
 import matplotlib.pyplot as plt
 
 class RandomWalk():
-    def __init__(self, numpoints = 10000):
+    def __init__(self, numpoints,palette_choice):
         # inicia classe random walk
         self.numpoints = numpoints
+        self.palette = palette_choice
         self.x_points = [0]
         self.y_points = [0]
 
@@ -27,13 +28,6 @@ class RandomWalk():
 
     def ploting(self):
         point_numbers = list(range(self.numpoints))
-        plt.scatter(self.x_points,self.y_points,c = point_numbers,cmap='magma',s=2)
+        plt.scatter(self.x_points,self.y_points,c = point_numbers,cmap=self.palette_choice,s=2)
         plt.show()
 
-while True:
-    ok = RandomWalk()
-    ok.direction()
-    ok.ploting()
-    eexit = input('Do you want to keep walking ? (y/n)').lower()
-    if eexit == 'n':
-        break
